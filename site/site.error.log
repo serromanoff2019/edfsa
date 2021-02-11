@@ -1,0 +1,75 @@
+2021/02/12 00:26:54 [error] 12504#3284: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 00:35:15 [error] 3524#14384: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 00:47:43 [error] 3524#14384: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 00:49:31 [error] 13556#2032: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 00:53:51 [error] 13868#6372: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 00:57:15 [error] 9140#3444: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:02:03 [error] 13708#15920: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:03:18 [error] 13708#15920: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:07:30 [error] 13708#15920: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:34:44 [error] 13708#15920: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:35:58 [error] 8332#8532: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
+2021/02/12 01:52:19 [error] 8332#8532: *17 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php:402
+Stack trace:
+#0 E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php(388): yii\web\Response->sendCookies()
+#1 E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php(346): yii\web\Response->sendHeaders()
+#2 E:\forNopreset\basic\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
+#3 E:\forNopreset\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php:402
+Stack trace:
+#0 E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php(388): yii\web\Response->sendCookies()
+#1 E:\forNopreset\basic\vendor\yiisoft\yii2\web\Response.php(346): yii\web\Response->sendHeaders()
+#2 E:\forNopreset\basic\vendor\yiisoft\yii2\base\Application.php(398): yii\web\Response->send()
+#3 E:\forNopreset\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\96ter\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132560443818814345',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'DESKTOP-DOM',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+2021/02/12 01:52:19 [error] 8332#8532: *17 FastCGI sent in stderr: "x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OneDrive' => 'C:\\Users\\96ter\\OneDrive',
+    'OneDriveConsumer' => 'C:\\Users\\96ter\\OneDrive',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\96ter\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\96ter\\AppData\\Roaming\\npm',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\96ter\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\96ter\\AppData\\Local\\Temp',
+    'USERDOMAIN' => 'DESKTOP-DOM',
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DOM',
+    'USERNAME' => '96ter',
+    'USERPROFILE' => 'C:\\Users\\96ter',
+    'windir' => 'C:\\Windows',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+  
